@@ -1,0 +1,71 @@
+[{
+  "_id": {
+    "$oid": "5eeab9dbdcb87f5855550ad1"
+  },
+  "uid": "4b9a1a64465c4ad6a402791508a42882",
+  "password": "$2b$10$oop0Z9gooFaqXCygbxoS0eS99Yl/twEzq1cJGAd13k/pNQ.pY/SUe",
+  "name": "Teniola Aderemi Shukurat",
+  "matric": "16/52hp015",
+  "level": "400",
+  "department": "Telecommunication Science(TCS)",
+  "faculty": "Communication And Information Sciences",
+  "phone": "09065954982",
+  "picture": "../assets/images/Ellipse-7.png",
+  "socketId": "WKE6vIET_RtRaaDMAAAF"
+},{
+  "_id": {
+    "$oid": "5eeabc1ee8561616702c23c9"
+  },
+  "uid": "cd62c1cab4a24a4db3f64d0977319bf4",
+  "password": "$2b$10$o.GufUpcMfu2nrk/Z.aI0OkUrLxhfboWsiimVBjDj9jvW6jYvVPzS",
+  "name": "Oyelade Oyedoyin Winifred",
+  "matric": "17/55ek187",
+  "level": "300",
+  "department": "Zoology(ZLY)",
+  "faculty": "Life Sciences",
+  "phone": "08144970107",
+  "picture": "../assets/images/Ellipse-7.png",
+  "socketId": "6P-W8RD7OwqAQYhWAAAA"
+},{
+  "_id": {
+    "$oid": "5eeabcbbe8561616702c23ca"
+  },
+  "uid": "95daf0cf8eae40c787aa8ff8f55a20bb",
+  "password": "$2b$10$BOpHpnSY3US18prW/Y1KaOHLn4PvpSaXr5JuTheJhsM2fyFAhYGQu",
+  "name": "AbdulGafar Olamide Ajao",
+  "matric": "16/52hp017",
+  "level": "400",
+  "department": "Telecommunication Science(TCS)",
+  "faculty": "Communication And Information Sciences",
+  "phone": "08134549552",
+  "picture": "../assets/images/Ellipse-7.png",
+  "socketId": "nQw9o-0thoz2aXCbAAAE"
+},{
+  "_id": {
+    "$oid": "5ef5d2e5ff047c192cfc1d2f"
+  },
+  "uid": "a6f53ce71ef7466e994fa36687cf649e",
+  "password": "$2b$10$K7bcZWDsrInjDGUVPrn0mO1QYU2pFi1MlLBs98qCf9pfpW4ej0sx6",
+  "name": "Ayomide Paul",
+  "matric": "16/77jc051",
+  "level": "400",
+  "department": "Political Science(POL)",
+  "faculty": "Social Sciences",
+  "phone": "08143129507",
+  "picture": "../assets/images/Ellipse-7.png",
+  "socketId": "r39JLSxJInufcvIyAAAj"
+},{
+  "_id": {
+    "$oid": "5ef60b9b5aa2d9294c9c8588"
+  },
+  "uid": "1533cd619d484586b4d23d568de2ecec",
+  "password": "$2b$10$IXjBlYTUy0DxXO3u5C6yAe2e9YwMG.UizPaoYTDB09hXJA4.WY/nu",
+  "name": "William Emem Ekpo",
+  "matric": "17/52hp111",
+  "level": "400",
+  "department": "Telecommunication Science(TCS)",
+  "faculty": "Communication And Information Sciences",
+  "phone": "07033707621",
+  "picture": "../assets/images/Ellipse-7.png",
+  "socketId": "xIv68tBzm7mN0_sPAAAZ"
+}]

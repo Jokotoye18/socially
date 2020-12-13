@@ -1,0 +1,230 @@
+[{
+  "_id": {
+    "$oid": "5ef933b43a3f46545b901b48"
+  },
+  "uid": "95daf0cf8eae40c787aa8ff8f55a20bb_4b9a1a64465c4ad6a402791508a42882",
+  "users": [
+    "95daf0cf8eae40c787aa8ff8f55a20bb",
+    "4b9a1a64465c4ad6a402791508a42882"
+  ],
+  "messages": [
+    {
+      "messageId": "c0a5b7f92035437ea2094b94357800cd",
+      "text": "hey",
+      "image": null,
+      "user": {
+        "uid": "95daf0cf8eae40c787aa8ff8f55a20bb",
+        "name": "AbdulGafar Olamide Ajao"
+        
+      },
+      "createdAt": {
+        "$timestamp": {
+          "t": 0,
+          "i": 0
+        }
+      }
+    },
+    {
+      "messageId": "2e8a32109f124d9398e0141d39b693bf",
+      "text": "hey",
+      "image": null,
+      "user": {
+        "uid": "95daf0cf8eae40c787aa8ff8f55a20bb",
+        "name": "AbdulGafar Olamide Ajao"
+      },
+      "createdAt": {
+        "$timestamp": {
+          "t": 0,
+          "i": 0
+        }
+      }
+    },
+    {
+      "messageId": "0628c63e824a4883975da054c3cb7b02",
+      "text": "You?",
+      "image": null,
+      "user": {
+        "uid": "95daf0cf8eae40c787aa8ff8f55a20bb",
+        "name": "AbdulGafar Olamide Ajao"
+      },
+      "createdAt": {
+        "$timestamp": {
+          "t": 0,
+          "i": 0
+        }
+      }
+    },
+    {
+      "messageId": "454b1cc026c84d05b8f2a1a273379813",
+      "text": "",
+      "image": "../assets/images/Ellipse-7.png",
+      "user": {
+        "uid": "95daf0cf8eae40c787aa8ff8f55a20bb",
+        "name": "AbdulGafar Olamide Ajao"
+      },
+      "createdAt": {
+        "$timestamp": {
+          "t": 0,
+          "i": 0
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5ef939623a3f46545b901b49"
+  },
+  "uid": "1533cd619d484586b4d23d568de2ecec_95daf0cf8eae40c787aa8ff8f55a20bb",
+  "users": [
+    "1533cd619d484586b4d23d568de2ecec",
+    "95daf0cf8eae40c787aa8ff8f55a20bb"
+  ],
+  "messages": [
+    {
+      "messageId": "c758775d77ad4dee82ba36175ca0e9ce",
+      "text": "HAPPY MONDAY!!",
+      "image": null,
+      "user": {
+        "uid": "1533cd619d484586b4d23d568de2ecec",
+        "name": "William Emem Ekpo"
+      },
+      "createdAt": {
+        "$timestamp": {
+          "t": 0,
+          "i": 0
+        }
+      }
+    },
+    {
+      "messageId": "b85e544e6f19437e89860998c7d99672",
+      "text": "Thanks ",
+      "image": null,
+      "user": {
+        "uid": "95daf0cf8eae40c787aa8ff8f55a20bb",
+        "name": "AbdulGafar Olamide Ajao"
+      },
+      "createdAt": {
+        "$timestamp": {
+          "t": 0,
+          "i": 0
+        }
+      }
+    },
+    {
+      "messageId": "8777773af257440382038983f41874a0",
+      "text": "Food for thought",
+      "image": "../assets/images/Ellipse-7.png",
+      "user": {
+        "uid": "1533cd619d484586b4d23d568de2ecec",
+        "name": "William Emem Ekpo"
+      },
+      "createdAt": {
+        "$timestamp": {
+          "t": 0,
+          "i": 0
+        }
+      }
+    },
+    {
+      "messageId": "d38f93619dbf4948b0e174a383f94522",
+      "text": "",
+      "image": "../assets/images/Ellipse-7.png",
+      "user": {
+        "uid": "1533cd619d484586b4d23d568de2ecec",
+        "name": "William Emem Ekpo"
+      },
+      "createdAt": {
+        "$timestamp": {
+          "t": 0,
+          "i": 0
+        }
+      }
+    },
+    {
+      "messageId": "8cfd2a29df7243c2ba66c390938b9c69",
+      "text": "",
+      "image": "../assets/images/Ellipse-7.png",
+      "user": {
+        "uid": "1533cd619d484586b4d23d568de2ecec",
+        "name": "William Emem Ekpo"
+      },
+      "createdAt": {
+        "$timestamp": {
+          "t": 0,
+          "i": 0
+        }
+      }
+    },
+    {
+      "messageId": "d5949e0bed7e445cb161262778547d83",
+      "text": "",
+      "image": "../assets/images/Ellipse-7.png",
+      "user": {
+        "uid": "1533cd619d484586b4d23d568de2ecec",
+        "name": "William Emem Ekpo"
+      },
+      "createdAt": {
+        "$timestamp": {
+          "t": 0,
+          "i": 0
+        }
+      }
+    },
+    {
+      "messageId": "af03171a0c27484ab46e8f92efd874c6",
+      "text": "",
+      "image": "../assets/images/Ellipse-7.png" ,
+      "user": {
+        "uid": "1533cd619d484586b4d23d568de2ecec",
+        "name": "William Emem Ekpo"
+      },
+      "createdAt": {
+        "$timestamp": {
+          "t": 0,
+          "i": 0
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5efd93b35049503d9f2c0bed"
+  },
+  "uid": "undefined_undefined",
+  "users": [
+    "1533cd619d484586b4d23d568de2ecec",
+    "95daf0cf8eae40c787aa8ff8f55a20bb"
+  ],
+  "messages": [
+    {
+      "messageId": "1e1dfe533d954d0a8b6782ad2205d203",
+      "text": "hi",
+      "image": null,
+      "user": {
+        "uid": "95daf0cf8eae40c787aa8ff8f55a20bb",
+        "name": "AbdulGafar Olamide Ajao"
+      },
+      "createdAt": {
+        "$timestamp": {
+          "t": 0,
+          "i": 0
+        }
+      }
+    },
+    {
+      "messageId": "4d5e48e308514af78a7d979ec2b4fe75",
+      "text": "hi",
+      "image": null,
+      "user": {
+        "uid": "95daf0cf8eae40c787aa8ff8f55a20bb",
+        "name": "AbdulGafar Olamide Ajao"
+      },
+      "createdAt": {
+        "$timestamp": {
+          "t": 0,
+          "i": 0
+        }
+      }
+    }
+  ]
+}]
