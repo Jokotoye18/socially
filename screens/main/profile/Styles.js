@@ -13,7 +13,7 @@ export const styles = StyleSheet.create({
     ProfileContainer: {
         alignItems: 'center',
         marginTop: hp(40),
-        marginBottom: hp(98)
+        marginBottom: hp(98),
     },
     img: {
         width: 108,
@@ -63,5 +63,12 @@ export const styles = StyleSheet.create({
     mediaActive: {
         borderBottomWidth: hp(1.3),
         borderColor: '#fff'
+    },
+    mediaImg: {
+        borderRadius: 5,
+        width: wp(102),
+        height: hp(102),
+        marginVertical: hp(20),
+        marginRight: wp(18)
     }
 })

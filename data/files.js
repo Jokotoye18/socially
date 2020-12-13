@@ -22,24 +22,36 @@ export const Files = [
     {
         id: '4',
         file: file3,
-        fileType: 'videos',
+        fileType: 'video',
     },
     {
         id: '5',
         file: file3,
-        fileType: 'videos',
+        fileType: 'video',
     },
     {
-        id: '1',
+        id: '6',
         file: file3,
-        fileType: 'videos',
+        fileType: 'video',
     },
     {
+        id: '7',
+        file: file3,
+        fileType: 'files',
+    },
+    {
+        id: '8',
         file: file3,
         fileType: 'files',
     },
     {
-        file: file3,
+        id: '9',
+        file: file2,
         fileType: 'files',
+    },
+    {
+        id: '10',
+        file: file2,
+        fileType: 'photos',
     },
 ]

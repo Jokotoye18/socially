@@ -31,6 +31,7 @@ const Profile = ({navigation}) => {
   }
 
   const MEDIAS = getActiveMedia()
+  console.log(MEDIAS);
 
   return (
     <>
@@ -108,10 +109,12 @@ const Profile = ({navigation}) => {
 
                 <FlatList 
                   data={MEDIAS}
-                  
+                  horizontal={true}
+                  keyExtractor={item => item.id}
+                  renderItem={({item, index,}) => {
+                    return <Image source={item.file} style={styles.mediaImg} />
+                  }}
                 />
-
-
               </View>
             </View>
           {/* </ScrollView> */}
