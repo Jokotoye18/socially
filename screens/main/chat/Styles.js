@@ -8,7 +8,8 @@ export const styles = StyleSheet.create({
         backgroundColor: '#fff'
     },
     container: {
-        paddingHorizontal: wp(10)
+        paddingHorizontal: wp(10),
+        marginTop: hp(20)
     },
     row: {
         flexDirection: 'row',

@@ -46,38 +46,38 @@ export default ({navigation}) => {
     navigation.navigate('Profile');
   };
 
-  const handleSendCode = () => {
-    if (!numberInput) {
+  const handleLogin = () => {
+    if (!codeInput) {
       return showToastWithGravity('Please enter your valid phone number');
     }
-    const user = users.find((user) => user.phone === numberInput);
-    // console.log(user);
+    const user = users.find((user) => user.matric === codeInput);
     if (user) {
       dispatch({
         type: 'LOGIN_SUCCEED',
         payload: user,
       });
     } else {
-      showToastWithGravity(`user with phone: ${numberInput} does not exist!`);
+      showToastWithGravity(`Matric number: ${codeInput} does not exist!`);
     }
   };
 
   return (
     <>
       <RegistrationGradient>
-        <ScrollView style={styles.container}>
-          <View>
+        <View style={styles.container}>
+          <KeyboardAvoidingView
+            behavior={Platform.OS == 'ios' ? 'padding' : 'height'}>
             <Text style={styles.getStarted}>Get started</Text>
-            <Text style={styles.title}>Enter your phone number</Text>
+            <Text style={styles.title}>Enter your matric number</Text>
             <View style={styles.row}>
               <Text style={styles.span}>Socially</Text>
               <Text style={styles.subTitle}>
                 will send an SMS message to verify your phone number.
               </Text>
             </View>
-          </View>
+          </KeyboardAvoidingView>
           <View style={{marginTop: hp(30)}}>
-            <View style={styles.phoneInputRow}>
+            {/* <View style={styles.phoneInputRow}>
               <View style={styles.inputLeft}>
                 <View style={styles.pickerRow}>
                   <Text style={styles.code}>{code}</Text>
@@ -115,29 +115,21 @@ export default ({navigation}) => {
                   {codeSent ? 'code sent' : 'send code'}
                 </Text>
               </TouchableOpacity>
-            </View>
+            </View> */}
             <TextInput
               value={codeInput}
               style={styles.codeInput}
-              placeholder="Enter code"
+              placeholder="Enter matric number"
               placeholderTextColor="#e5dddd"
               onChangeText={(text) => setCodeInput(text)}
-              keyboardType="numeric"
-              maxLength={6}
-              textContentType="oneTimeCode"
             />
+            <View style={styles.btn}>
+              <Button title="Login" handlePress={handleLogin} />
+            </View>
           </View>
-          <Text style={[styles.subTitle, styles.msg]}>
+          {/* <Text style={[styles.subTitle, styles.msg]}>
             Carrier SMS charges may apply
-          </Text>
-        </ScrollView>
-        <View
-          style={styles.btnBox}
-          // behavior={Platform.OS == 'ios' ? 'padding' : 'height'}
-          >
-          <View style={styles.btn}>
-            <Button title="continue" handlePress={handleContinue} />
-          </View>
+          </Text> */}
         </View>
       </RegistrationGradient>
     </>

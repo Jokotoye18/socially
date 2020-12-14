@@ -2,7 +2,6 @@ import React from 'react';
 import {View, Text, Image} from 'react-native';
 import {createMaterialBottomTabNavigator} from '@react-navigation/material-bottom-tabs';
 import Calls from '../screens/main/calls/Calls';
-import ChatStack from './ChatStack';
 import Chat from '../screens/main/chat/Chat';
 import Profile from '../screens/main/profile/Profile';
 import {hp, wp} from '../utils/responsiveDesign';

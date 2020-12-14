@@ -23,16 +23,20 @@ const Chat = ({navigation}) => {
   const RenderItem = ({item}) => {
     const {_id, messages, uid, users} = item;
 
-    const friendMessages = messages.filter(message => message.user.uid === user.uid)
+    const friendMessages = messages.filter(
+      (message) => message.user.uid === user.uid,
+    );
     // const lastMessage = friendMessages[friendMessages.length - 1]
 
     return (
-      <TouchableOpacity 
-        onPress={() => navigation.navigate('Messages',  {
-          messages: messages
-        })} 
-        activeOpacity={0.5} style={styles.row}
-      >
+      <TouchableOpacity
+        onPress={() =>
+          navigation.navigate('Messages', {
+            messages: messages,
+          })
+        }
+        activeOpacity={0.5}
+        style={styles.row}>
         <Image source={ProfilePics} style={styles.img} />
         <View style={styles.nameMessage}>
           <Text style={styles.name}>Mike love</Text>

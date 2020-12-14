@@ -74,7 +74,7 @@ export const styles = StyleSheet.create({
   },
   codeInput: {
     borderWidth: 1,
-    height: hp(50),
+    height: hp(65),
     borderRadius: hp(7),
     color: '#e5dddd',
     fontWeight: '600',
@@ -93,7 +93,8 @@ export const styles = StyleSheet.create({
     justifyContent: 'flex-end'
   },
   btn: {
-    marginBottom: hp(52),
+    marginTop: hp(30),
+    alignItems: 'center',
   },
   code: {
     paddingLeft: hp(8)
