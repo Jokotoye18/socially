@@ -3,6 +3,7 @@ import {View, Text} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import RegistrationStack from './RegistrationStack';
 import MainBottonTab from './MainBottonTab';
+import ChatStack from './ChatStack'
 import {AuthContext} from '../context/AuthContext';
 
 const Index = () => {
@@ -14,7 +15,7 @@ const Index = () => {
 
   return (
     <NavigationContainer>
-      {isAuth ? <MainBottonTab /> : <RegistrationStack />}
+      {isAuth ? <ChatStack /> : <RegistrationStack />}
     </NavigationContainer>
   );
 };

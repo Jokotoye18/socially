@@ -17,4 +17,9 @@ export const globalStyles = StyleSheet.create({
         justifyContent: 'flex-start',
         alignItems: 'center'
     },
+    rowEnd: {
+        flexDirection: 'row',
+        justifyContent: 'flex-end',
+        alignItems: 'center'
+    },
 })

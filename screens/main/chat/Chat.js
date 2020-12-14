@@ -13,7 +13,7 @@ import {AuthContext} from '../../../context/AuthContext';
 import CHATSDATA from '../../../data/chats.json';
 import ProfilePics from '../../../assets/images/Ellipse-7.png';
 
-const Chat = () => {
+const Chat = ({navigation}) => {
   const {
     state: {user},
   } = useContext(AuthContext);
@@ -27,7 +27,12 @@ const Chat = () => {
     // const lastMessage = friendMessages[friendMessages.length - 1]
 
     return (
-      <TouchableOpacity activeOpacity={0.5} style={styles.row}>
+      <TouchableOpacity 
+        onPress={() => navigation.navigate('Messages',  {
+          messages: messages
+        })} 
+        activeOpacity={0.5} style={styles.row}
+      >
         <Image source={ProfilePics} style={styles.img} />
         <View style={styles.nameMessage}>
           <Text style={styles.name}>Mike love</Text>
